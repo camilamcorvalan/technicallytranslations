@@ -136,3 +136,11 @@ section{padding:64px 0}
 .sec-head h2,.about-copy h2,.contact h2{font-size:38px}
 .sector h3{font-size:36px}
 }
+.result{text-decoration:none;color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:6px;padding:28px;display:flex;flex-direction:column;gap:12px;min-height:280px}
+.result h3{margin:0;font-size:32px;line-height:1.08}
+.result p{margin:0;color:var(--ink2);font-size:16px}
+.result .more{margin-top:auto;font-weight:600;color:var(--accent);font-size:15px}
+.result:hover{border-color:var(--accent)}
+.steps-dark{color:var(--soft);font-size:18px}
+.steps-dark li strong{color:#fff}
+.nav .lang{font-family:"IBM Plex Mono",monospace;border:1px solid var(--line);padding:8px 12px;border-radius:4px}
